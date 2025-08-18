@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.zip
+*.ipynb
+outputs/images/
+outputs/labels/
+outputs/yolo_training
+outputs/yolo_training2
+outputs/*.yaml
+outputs/*.parquet
+data/
