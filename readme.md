@@ -129,3 +129,23 @@ This task is approached as an **instance segmentation problem** where each roof 
 3. **Ground Truth Comparison**: Match predictions with annotations
 4. **Metric Calculation**: Compute performance statistics
 5. **Visualization**: Generate overlaid predictions for qualitative assessment
+
+## 4. Results
+
+The model successfully detects and segments roof tiles in satellite imagery. Below are sample results from the test set showing the model's predictions overlaid on the original images:
+
+### Sample Test Results
+
+**Example 1:**
+![Test Result 1](outputs/test_visualizations/067f996eb79c76fb800010dd352e1c27_image_cover_640_visualization.jpg)
+
+**Example 2:**
+![Test Result 2](outputs/test_visualizations/067f996eba417a5b80007f54fa00aa1c_image_cover_640_visualization.jpg)
+
+### Sample Validation Results
+
+**Example 1:**
+![Validation Result 1](outputs/val_visualizations/067f996eb808772c80004dea43a9c38f_image_cover_640_visualization.jpg)
+
+**Example 2:**
+![Validation Result 2](outputs/val_visualizations/067f996eba037b7f8000d496815379dc_image_cover_640_visualization.jpg)
